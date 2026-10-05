@@ -1,59 +1,59 @@
 # Animated Embossed Login
 
-A sleek, modern login UI with an embossed glass-like effect, smooth validation, and a success state animation. This project demonstrates a polished front-end interaction built with HTML, CSS, and JavaScript.
+A modern front-end login interface featuring an embossed visual style, interactive validation, and a success-state animation. This project demonstrates a refined UI pattern suitable for dashboard, SaaS, or portfolio authentication screens.
 
-## ✨ Features
+## Overview
 
-- Animated embossed login card
-- Real-time input validation
-- Smooth sign-in interaction
-- Success state with animated checkmark
-- Fully responsive and lightweight
-- Easy to customize for your own projects
+The Animated Embossed Login project combines layered gradients, depth effects, subtle motion, and clean form interactions to create a polished login experience. It is built with standard web technologies and can be used as a reusable template for personal or commercial projects.
 
-## 🧩 Tech Stack
+## Features
+
+- Embossed glass-style login panel
+- Animated form submission feedback
+- User validation states
+- Success confirmation screen with animated checkmark
+- Responsive layout for desktop and mobile interfaces
+- Lightweight implementation with no external framework required
+
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## ▶️ Preview
+## Demo
 
-Open `index.html` in your browser to view the project.
+Open `index.html` in a browser to view the interface locally.
 
-## 🚀 Run Locally
+## Local Setup
 
 ```bash
-# Clone the repository
 git clone https://github.com/htmlcssdevs/Animated-Embossed-Login.git
-
-# Open the project folder
 cd Animated-Embossed-Login
-
-# Launch the app
-# Open index.html in your browser
 ```
 
-## 📺 YouTube
+Then open `index.html` in your preferred browser.
 
-Watch more front-end tutorials, design inspiration, and UI experiments on my YouTube channel:
+## YouTube
+
+For more UI design tutorials, front-end development examples, and creative web projects, visit my YouTube channel:
 
 https://www.youtube.com/@htmlcssdevs
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Animated-Embossed-Login/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+├── README.md
 ```
 
-## 👤 Author
+## Author
 
 Created by htmlcssdevs.
 
 ## License
 
-This project is open for learning and inspiration. Feel free to use and modify it for personal or educational use.
+This project is provided for educational and personal use. Feel free to adapt and extend it for your own work.
