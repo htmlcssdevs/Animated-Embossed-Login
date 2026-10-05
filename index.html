@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Embossed Login - Validation & Success</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Animated Embossed Login</h1>
+
+    <div class="login-container" id="loginContainer">
+
+        <!-- Form View -->
+        <form class="login-form" id="loginForm">
+            <h2>SIGN IN</h2>
+
+            <div class="input-group" id="usernameGroup">
+                <input type="text" id="username" placeholder="Username or Email" required autocomplete="off">
+            </div>
+
+            <div class="input-group" id="passwordGroup">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="login-btn" id="loginBtn">
+                <span class="btn-text">Login</span>
+                <div class="spinner"></div>
+            </button>
+        </form>
+
+        <!-- Success View (Hidden by default) -->
+        <div class="success-view" id="successView">
+            <div class="check-circle">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+            </div>
+            <h2>Welcome Back!</h2>
+            <p>Login Successful</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
